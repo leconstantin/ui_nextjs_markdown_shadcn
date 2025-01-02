@@ -1,10 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-<<<<<<< HEAD
 import { allPosts } from "contentlayer/generated";
-=======
-import { allPosts, Post } from "contentlayer/generated";
->>>>>>> d63b7d071eac823cb6b1c4329ad9374ba8ee93ea
 import { compareDesc } from "date-fns";
 
 import { formatDate } from "@/lib/utils";

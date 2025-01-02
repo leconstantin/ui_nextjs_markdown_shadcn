@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Icons } from "@/components/icons";
 import { Mdx } from "@/components/mdx-components";
 import { buttonVariants } from "@/components/ui/button";
@@ -135,8 +134,4 @@ export default async function PostPage({ params }: PostPageProps) {
       </div>
     </article>
   );
-=======
-export default function Page() {
-  return <main></main>;
->>>>>>> d63b7d071eac823cb6b1c4329ad9374ba8ee93ea
 }
