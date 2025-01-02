@@ -36,6 +36,7 @@ export const Post = defineDocumentType(() => ({
       type: "string",
       resolve: (doc) => `/${doc._raw.flattenedPath}`,
     },
+<<<<<<< HEAD
     slugAsParams: {
       type: "string",
       resolve: (doc) => doc._raw.flattenedPath.split("/").slice(1).join("/"),
@@ -73,10 +74,16 @@ export const Author = defineDocumentType(() => ({
       type: "string",
       resolve: (doc) => doc._raw.flattenedPath.split("/").slice(1).join("/"),
     },
+=======
+>>>>>>> d63b7d071eac823cb6b1c4329ad9374ba8ee93ea
   },
 }));
 
 export default makeSource({
   contentDirPath: "./content",
+<<<<<<< HEAD
   documentTypes: [Post, Author],
+=======
+  documentTypes: [Post],
+>>>>>>> d63b7d071eac823cb6b1c4329ad9374ba8ee93ea
 });
