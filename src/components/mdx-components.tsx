@@ -4,7 +4,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { useMDXComponent } from "next-contentlayer2/hooks";
 import { Callout } from "./callout";
-import { MdxCard } from "./mdx-card";
+// import { MdxCard } from "./mdx-card";
 
 const components = {
   h1: ({ ...props }) => (
@@ -99,7 +99,7 @@ const components = {
   ),
   Image,
   Callout,
-  Card: MdxCard,
+  // Card: MdxCard,
 };
 
 interface MdxProps {
